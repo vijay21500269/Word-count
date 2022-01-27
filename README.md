@@ -18,6 +18,7 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+~~~
 ## DEVELOPED BY: R.Vijay
 ## REFERENCE NUMBER: 21500269
 num_words =0
@@ -29,6 +30,7 @@ with open('text.txt','r') as file1:
         word =i.split()
         num_words += len(word)
 print("Number of words={}".format(num_words))
+~~~
 
 ### OUTPUT:
 ![output]()
