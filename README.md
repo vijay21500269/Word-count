@@ -18,8 +18,20 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+## DEVELOPED BY: R.Vijay
+## REFERENCE NUMBER: 21500269
+num_words =0
+file1 = open("text.txt", "r")
+print(file1.read())
+
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
 
 ### OUTPUT:
+![output]()
 
 
 
