@@ -39,7 +39,7 @@ print("Number of words={}".format(num_words))
 ~~~
 
 ### OUTPUT:
-![output]()
+![output](https://github.com/vijay21500269/Word-count/blob/main/output.jpeg)
 
 
 
